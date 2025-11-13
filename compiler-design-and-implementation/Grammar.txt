@@ -1,0 +1,46 @@
+Grammar
+
+P in Program
+K in Block
+D in Declaration
+C in Command
+
+E in Arithmetic Expression 
+T in term
+F in factor
+
+B in Boolean Expression
+I in Identifier
+N in Number
+A in assignment
+TER in ternary 
+
+P ::= K.
+K ::= begin D; C end
+
+D ::=  int I; D | bool I; D | str I; D
+D ::=  int I | bool I | str I
+
+C ::= A; C | if B then C else C endif; C | while B do C endwhile; C | K; C
+C ::= for (A; B; A) do C endfor; C | for I in range (F,F) do C endfor ; C | TER; C | Print; C
+
+C ::= A; | if B then C else C endif | while B do C endwhile | K; 
+C ::= for (A; B; A) do C endfor | for I in range (F, F) do C endfor || TER; | Print;
+
+A ::= I := E | I := String
+
+B ::= E = E | not B| E < E| E > E | B and B | B or B
+B ::= true | false
+
+E ::= E + T | E - T | T
+T ::= T * F | T / F | F
+F ::= I | N
+
+TER ::= B ? C : C endter
+
+I := x | y | z | u | v 
+N ::= -inf..inf
+String ::= “[a-z]*[0-9]*”
+
+Print ::= print I | print N | print E
+

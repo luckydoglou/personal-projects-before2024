@@ -1,0 +1,21 @@
+begin
+
+int x;
+int y;
+int z;
+
+x = 2;
+y = 3;
+z = 5;
+u = "This is a string";
+
+print "x is:";
+print x;
+
+z = y + z;
+print "y + z is:";
+print z;
+
+print u;
+
+end.

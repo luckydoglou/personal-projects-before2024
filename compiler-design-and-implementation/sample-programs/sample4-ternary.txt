@@ -1,0 +1,18 @@
+begin
+
+int x;
+int y;
+int z;
+
+x = 2;
+y = 3;
+z = 5;
+
+x < 5 ? z = z + x; : z = z + y; endter
+
+z = z + 1;
+
+print "z is:";
+print z;
+
+end.

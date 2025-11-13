@@ -1,0 +1,24 @@
+begin
+
+int x;
+int y;
+int z;
+x = 2;
+y = 3;
+z = 5;
+
+if x / 2 == 1 then
+    x = x + 1;
+    print "x in if coondition:";
+    print x;
+endif
+
+if y == z then
+    print z;
+else
+    y = y + 1;
+    print "y in ifelse condition:";
+    print y;
+endif
+
+end.

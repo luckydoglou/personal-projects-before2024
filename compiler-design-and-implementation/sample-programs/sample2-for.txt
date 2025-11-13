@@ -1,0 +1,24 @@
+begin
+
+int x;
+int y;
+int z;
+x = 2;
+y = 3;
+z = 5;
+
+for (x = 2; x < 5; x = x + 1) do
+	y = y + 1;
+	print "y in for loop:";
+	print y;
+endfor
+
+z = z + y;
+
+print "y is:";
+print y;
+
+print "z is:";
+print z;
+
+end.

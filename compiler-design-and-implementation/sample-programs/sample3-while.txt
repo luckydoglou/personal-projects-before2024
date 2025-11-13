@@ -1,0 +1,22 @@
+begin
+
+int x;
+int y;
+int z;
+
+x = 2;
+y = 3;
+z = 5;
+
+while y < 5 do
+	y = y + 1;
+	print "y in while loop:";
+	print y;
+endwhile
+
+z = z + y;
+
+print "z is:";
+print z;
+
+end.

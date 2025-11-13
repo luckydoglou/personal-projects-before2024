@@ -1,0 +1,51 @@
+begin
+
+int u;
+int v;
+int x;
+int y;
+int z;
+
+u = 0;
+v = 3;
+
+x = 0;
+y = 0;
+z = 0;
+
+if u < v then
+	x = x + 1;
+endif
+
+if u < v then
+	x = x + 1;
+else
+	x = x + 2;
+endif
+
+for (u = 0; u < v; u = u + 1) do
+	y = y + 1;
+endfor
+
+for u in range(0, v) do
+	y = y + 1;
+endfor
+
+while z < v do
+	z = z + 1;
+endwhile
+
+u < v ? u = u + 1; : u = u + 10; endter
+
+print "u is:";
+print u;
+print "v is:";
+print v;
+print "x is:";
+print x;
+print "y is:";
+print y;
+print "z is:";
+print z;
+
+end.
