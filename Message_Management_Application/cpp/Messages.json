@@ -1,0 +1,43 @@
+{"name":"MessageLibrary",
+ "Xiaolou.Huang":
+ [
+     {
+         "MessageTo":"Xiaolou.Huang",
+         "MessageFrom":"Tim.Lindquist",
+         "MessageSubject":"subject2",
+         "MessageDate":"Sat Feb 2 3:11:26 2019",
+         "MessageContent":"content2"
+     },
+     {
+         "MessageTo":"Xiaolou.Huang",
+         "MessageFrom":"Tim.Lindquist",
+         "MessageSubject":"subject3",
+         "MessageDate":"Sat Feb 2 3:11:28 2019",
+         "MessageContent":"content3"
+     },
+     {
+         "MessageTo":"Xiaolou.Huang",
+         "MessageFrom":"Tim.Lindquist",
+         "MessageSubject":"subject4",
+         "MessageDate":"Sat Feb 2 3:11:30 2019",
+         "MessageContent":"content4"
+     },
+     {
+         "MessageTo":"Xiaolou.Huang",
+         "MessageFrom":"Tim.Lindquist",
+         "MessageSubject":"subject5",
+         "MessageDate":"Sat Feb 2 3:11:32 2019",
+         "MessageContent":"content5"
+     }
+ ],
+ "Tim.Lindquist":
+ [
+     {
+         "MessageTo":"Tim.Lindquist",
+         "MessageFrom":"Xiaolou.Huang",
+         "MessageSubject":"subject1",
+         "MessageDate":"Sat Feb 2 3:11:24 2019",
+         "MessageContent":"content1"
+     }
+ ]
+}

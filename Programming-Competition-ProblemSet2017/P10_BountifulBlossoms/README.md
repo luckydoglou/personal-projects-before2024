@@ -1,0 +1,2 @@
+![Problem10-0](https://github.com/luckydoglou/WiCS-Programming-Competition-2017-ProblemSet/blob/master/images/Problem10-0.png)  
+![Problem10-1](https://github.com/luckydoglou/WiCS-Programming-Competition-2017-ProblemSet/blob/master/images/Problem10-1.png)
