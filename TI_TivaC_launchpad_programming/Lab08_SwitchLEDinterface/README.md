@@ -1,0 +1,2 @@
+![Lab8_Graph](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/Lab8_Graph.png)  
+![lab8](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab8.jpg)  

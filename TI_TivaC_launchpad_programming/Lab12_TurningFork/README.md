@@ -1,0 +1,1 @@
+![lab12](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab12.jpg) 
