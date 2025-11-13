@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449243600821",
+    "project_id": "food-barcode-scanner",
+    "storage_bucket": "food-barcode-scanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449243600821:android:b831bcd5ba259a340aabfc",
+        "android_client_info": {
+          "package_name": "com.lorworwag.food_barcode_scanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449243600821-5qlpg3q33l1uqssj8hpbm2kb1htn3gdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrWMV2awcRl6CG7EFCID_D9SY_ZpjdATA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449243600821-5qlpg3q33l1uqssj8hpbm2kb1htn3gdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

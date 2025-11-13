@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="You are logged in!"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnScanBarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Scan Barcode"
+            app:layout_constraintEnd_toEndOf="@+id/textWelcome"
+            app:layout_constraintStart_toStartOf="@+id/textWelcome"
+            app:layout_constraintTop_toBottomOf="@+id/textWelcome" />
+
+        <TextView
+            android:id="@+id/txtProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Product Name: XXXX"
+            app:layout_constraintEnd_toEndOf="@+id/btnScanBarcode"
+            app:layout_constraintStart_toStartOf="@+id/btnScanBarcode"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarcode"
+            android:textSize="16sp"
+            android:paddingHorizontal="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtBarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Barcode No.: XXXXX"
+            app:layout_constraintEnd_toEndOf="@+id/txtProductName"
+            app:layout_constraintStart_toStartOf="@+id/txtProductName"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductName" />
+
+        <TextView
+            android:id="@+id/txtIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Ingredients"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtBarcode"
+            app:layout_constraintStart_toStartOf="@+id/txtBarcode"
+            app:layout_constraintTop_toBottomOf="@+id/txtBarcode" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtIngredients"
+            app:layout_constraintStart_toStartOf="@+id/txtIngredients"
+            app:layout_constraintTop_toBottomOf="@+id/txtIngredients" />
+
+        <TextView
+            android:id="@+id/txtNutritionFacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Nutrition Facts"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerViewIngredients"
+            app:layout_constraintStart_toStartOf="@+id/recyclerViewIngredients"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerViewIngredients" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewNutritionFacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtNutritionFacts"
+            app:layout_constraintStart_toStartOf="@+id/txtNutritionFacts"
+            app:layout_constraintTop_toBottomOf="@+id/txtNutritionFacts"
+            android:paddingBottom="30dp"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
